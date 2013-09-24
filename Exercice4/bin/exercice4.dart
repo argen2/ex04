@@ -50,7 +50,7 @@ List fibonacciLine(num n) {
 void quest3(){
 
 DateTime naissance = new DateTime(1987,3,19,12,0,0);
-DateTime datederemise = new DateTime(2013,9,30,0,0);
+DateTime datederemise = new DateTime(2013,9,30,12,0,0);
 print('Difference entre ${naissance} et ${datederemise} est: ${(datederemise.difference(naissance))}');
 }
 
