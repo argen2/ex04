@@ -1,5 +1,4 @@
 import 'dart:math' as mathematique;
-import 'dart:';
 void main (){
   quest1();
   quest2();
