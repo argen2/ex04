@@ -1,4 +1,5 @@
 import 'dart:math' as mathematique;
+
 void main (){
   quest1();
   quest2();
@@ -6,6 +7,20 @@ void main (){
   quest4();
   quest5();
 }
+
+/*
+ * Le code de Charles Gagnon
+void question1(){
+  //Print the first 11 numbers, starting with 0, of the Fibonacci sequence.
+    
+    print(fibonacciLine(11));}
+num fibonacci(num n) {
+    if (n == 0 || n == 1) {
+        return n;}
+    else
+{return fibonacci(n-1) + fibonacci(n-2);}}
+*/
+
 void quest1(){
   //Print the first 11 numbers, starting with 0, of the Fibonacci sequence.
     print(fibonacciLine(11));}
@@ -41,26 +56,26 @@ void quest2() {
   // la réponse exacte en Y devrait être négative mathématiquement parlant mais a été utilisé tout au long du problème comme une variable positive. 
   // Aucun impact sur le résultat en soi.
 }
-void quest3(){
 
-DateTime naissance = new DateTime(1987,3,19,12,0,0);
-DateTime datederemise = new DateTime(2013,9,30,12,0,0);
-var tempsrestant = (datederemise.difference(naissance));
-print ((tempsrestant.inDays));
-
-
-//print('Difference entre ${naissance} et ${datederemise} est: ${(datederemise.difference(naissance))}');
+void quest3() {
+  DateTime naissance = new DateTime(1987,3,19,12,0,0);
+  DateTime datederemise = new DateTime(2013,9,30,12,0,0);
+  var tempsrestant = (datederemise.difference(naissance));
+  print ((tempsrestant.inDays));
+  //print('Difference entre ${naissance} et ${datederemise} est: ${(datederemise.difference(naissance))}');
 }
-void quest4()
-{   //Calculate a compound interest each year for 10 years,
+
+void quest4() {   
+  //Calculate a compound interest each year for 10 years,
   //for the initial investment of 1000$ with the fixed interest rate of 3.3.
-var interest=0.033;
-var invest=1000;
-var taux = (1+interest);
+  var interest=0.033;
+  var invest=1000;
+  var taux = (1+interest);
   for (int o = 1; o < 11; o++)
-     print(invest*mathematique.pow(taux,o)-invest);
+    print(invest*mathematique.pow(taux,o)-invest);
 }
-void quest5(){
+
+void quest5() {
   var y=12;
   for (int z=1; z <=20; z++) 
   print(z*y);
