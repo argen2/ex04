@@ -1,6 +1,6 @@
 ex04
 
-3/10
+6/10
 
 Exercice4 -> exercice4
 New Text Document.txt ?
@@ -12,17 +12,13 @@ pubspec.lock est @GitHub
 
 (-1) formater le code
 
-(-2) copier le code de Charles Gagnon
-la prochaine fois, ce sera -10
-
 (-1) imprimer les titres des exercices avec des lignes vides comme des séparations
 
 4.3
-9692 
+9692
 (-1) années, mois ?
 
-4.5
-(-1) fonction avec un paramètre ?
+
 
 
 
